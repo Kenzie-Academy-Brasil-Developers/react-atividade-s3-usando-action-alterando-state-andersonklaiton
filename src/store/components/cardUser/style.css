@@ -1,0 +1,27 @@
+.container_newUser{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 300px;
+}
+.container_input input{
+    height: 30px;
+    padding: 0 10px;
+    border-radius: 5px;
+    border: none;
+}
+.container_input{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.container_input button{
+    width: 76px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    border: none;
+    background: blue;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+}
